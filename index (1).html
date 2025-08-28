@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graziela Souza - Desenvolvedora</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Graziela Souza</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                    <li><a href="#projects" class="nav-link">Projetos</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Olá, eu sou <span class="highlight">Graziela Souza</span>
+                    </h1>
+                    <p class="hero-subtitle">Desenvolvedora & Estudante de Ciência da Computação</p>
+                    <p class="hero-description">
+                        Apaixonada por tecnologia e desenvolvimento, com foco em desenvolvimento mobile com Flutter 
+                        e experiência em desenvolvimento web.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="/fotoperfil.JPG" alt="Graziela Souza" id="profile-img">
+                        </div>
+                        <div class="profile-info">
+                            <h3>Graziela Souza</h3>
+                            <p>Desenvolvedora</p>
+                            <div class="location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Parnaíba, PI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou acadêmica de Ciência da Computação na Universidade Estadual do Piauí, 
+                        com paixão por tecnologia e desenvolvimento. Atualmente, aprofundo meus estudos 
+                        em desenvolvimento mobile com Flutter, ao mesmo tempo em que possuo experiência 
+                        em desenvolvimento web, utilizando HTML, CSS e JavaScript.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Formação</h4>
+                                <p>Ciência da Computação - UESPI</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Parnaíba, PI (Natural de Chaval, CE)</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Interesses</h4>
+                                <p class="editable-content" data-field="interests">
+                                    Tecnologia, Desenvolvimento, Música, Leitura, Viagens
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3 id="github-repos">13</h3>
+                        <p>Repositórios</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 id="github-contributions">1,668</h3>
+                        <p>Contribuições</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>2023</h3>
+                        <p>Início da Jornada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Hard Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Flutter</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Dart</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skills-list">
+                        <div class="soft-skill-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Resolução de Problemas</span>
+                        </div>
+                        <div class="soft-skill-item editable-content" data-field="soft-skill-1">
+                            <i class="fas fa-plus"></i>
+                            <span>Flexibilidade</span>
+                        </div>
+                        <div class="soft-skill-item editable-content" data-field="soft-skill-2">
+                            <i class="fas fa-plus"></i>
+                            <span>Resiliência</span>
+                        </div>
+                        <div class="soft-skill-item editable-content" data-field="soft-skill-3">
+                            <i class="fas fa-plus"></i>
+                            <span>Empatia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos conversar!</h3>
+                    <p>Estou sempre aberta a novas oportunidades e colaborações.</p>
+                    <div class="contact-links">
+                        <a href="https://github.com/grazisou00" target="_blank" class="contact-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/graziela-souza-1a258b266" target="_blank" class="contact-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:grazibsouza987@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Graziela Souza. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
