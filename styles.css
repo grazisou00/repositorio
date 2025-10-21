@@ -743,3 +743,42 @@ body {
     }
 }
 
+
+
+/* Video Accessibility Section */
+.video-accessibility {
+    padding: 5rem 0;
+    background: var(--bg-white);
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 0%; /* 16:9 Aspect Ratio */
+    background-color: #000;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Accessibility improvements */
+[aria-label] {
+    /* Optional: Add a visual cue for elements with ARIA labels if needed */
+    /* border-bottom: 1px dotted var(--secondary-color); */
+}
+
+/* Focus styles for keyboard navigation */
+a:focus, button:focus, input:focus, select:focus, video:focus {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
